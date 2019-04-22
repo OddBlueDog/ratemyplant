@@ -65,7 +65,7 @@
                             <div class="col-md-10">
                                 <div class="form-check">
                                     <input type="checkbox" name="terms" id="terms" class="form-check-input {{ $errors->has('terms') ? ' is-invalid' : '' }}" />
-                                    <label class="form-check-label" for="terms">I have read and agree to the Terms and Conditions and Privacy Policy</label>
+                                    <label class="form-check-label" for="terms">I have read and agree to the <a href="/terms" target="_blank">Terms and Conditions</a> and <a href="/privacy" target="_blank">Privacy Policy</a></label>
 
                                     @if ($errors->has('terms'))
                                     <div class="invalid-feedback" role="alert">

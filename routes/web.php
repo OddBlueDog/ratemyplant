@@ -21,3 +21,11 @@ Route::resource('comment', 'CommentController');
 Route::resource('rating', 'RatingController');
 
 Route::post('/plant/{plant}/rate', 'PlantRatingController@store')->middleware('auth');
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
+Route::get('/terms', function () {
+    return view('terms');
+});
