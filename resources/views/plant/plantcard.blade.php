@@ -1,4 +1,3 @@
-<div class="col-md-4 col-xs-6 col-12">
     <div class="card">
         <img class="card-img-top" src="{{ asset($plant->filename) }}" alt="Card image cap">
         <div class="card-body">
@@ -7,4 +6,3 @@
             <a href="{{route('plant.show', $plant)}}" class="btn btn-primary">View</a>
         </div>
     </div>
-</div>

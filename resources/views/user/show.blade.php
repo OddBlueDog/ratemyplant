@@ -13,7 +13,7 @@
     <h3>No plants uploaded yet</h3>
     @endif
 
-    <div class="row">
+    <div class="card-columns">
         @foreach($plants as $plant)
         @include('plant.plantcard', ['plant' => $plant])
         @endforeach
