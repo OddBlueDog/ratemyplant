@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\plant;
+use App\Plant;
 use Illuminate\Http\Request;
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\Storage;
